@@ -1,0 +1,106 @@
+body {
+  background-color: #27262b;
+  color: #E6E1E7;
+  margin: 0 auto;
+}
+
+div#wrapper {
+  width: 540px;
+  margin-left: 35px;
+}
+
+header {
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0 15px 0;
+  width: 100%;
+}
+
+button {
+  position: absolute;
+  right: 0px;
+  -webkit-user-skelect: none;
+  -webkit-appearance: none;
+  background-image: -webkit-linear-gradient(#ededed, #ededed 38%, #dedede);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+  color: #444;
+  font: inherit;
+  text-shadow: 0 1px 0 #f0f0f0;
+  height: 24px;
+  font-size: 12px;
+  padding: 0 10px;
+  margin-top: -20px;
+}
+
+table#options {
+  width: 100%;
+  font-size: 14px;
+  position: relative;
+  border-spacing: 0 50px;
+  margin-top: -30px;
+}
+
+.example {
+  font-size: 12px;
+  line-height: 16px;
+  color: #979ca0;
+  margin-left: 20px;
+}
+
+.checkbox {
+  position: absolute;
+  right: 0px;
+  font-size: 12px;
+}
+
+.caption {
+  margin-right: 10px;
+  min-width: 130px;
+  padding-top: 3px;
+  vertical-align: top;
+}
+
+td {
+  padding: 0;
+}
+
+/* Make the caption in the settings table as small as possible, to pull the other fields to the right. */
+.caption {
+  width: 1px;
+  white-space: nowrap;
+}
+
+/* Boolean options have a tighter form representation than text options. */
+td.booleanOption {
+  font-size: 12px;
+}
+
+input {
+  background-color: #1d1d1f;
+  color: #e8eaed;
+  border: 1px solid #1d1d1f;
+  box-sizing: border-box;
+}
+
+input#apiKey,
+input#endpoint {
+  width: 100%;
+}
+
+textarea {
+  background-color: #1d1d1f;
+  color: #e8eaed;
+  border: 1px solid #1d1d1f;
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+}
+
+select {
+  background-color: #1d1d1f;
+  border: 1px solid #bfbfbf;
+  color: #e8eaed;
+}

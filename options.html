@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>Overleaf Proofreading Options</header>
+    <table id="options">
+      <tbody>
+        <tr>
+          <td class="caption">API Key</td>
+          <td verticalalign="top">
+            <input id="apiKey" type="password">
+            <div class="checkbox">
+              <input id="showApiKey" type="checkbox">
+              <label for="showApiKey">Show</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="caption">Model</td>
+          <td verticalalign="top">
+            <select id="model"></select>
+          </td>
+        </tr>
+        <tr>
+          <td class="caption">Endpoint</td>
+          <td verticalalign="top">
+            <input id="endpoint" type="password">
+            <div class="checkbox">
+              <input id="showEndpoint" type="checkbox">
+              <label for="showEndpoint">Show</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="caption">Prompt</td>
+          <td verticalalign="top">
+            <textarea id="prompt">以下の国際学会論文向けの英文を修正してください．</textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button id="saveButton">Save</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="options.js" type="module"></script>
+  </div>
+</body>
+
+</html>
